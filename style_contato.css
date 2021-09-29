@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+:root{
+    --background: #e6d4d4;
+    --cor1: #8D5253;
+    --cor2: #8d525313;
+    --corbotao: #8d525350;
+
+}
+body{
+    background-color: var(--background);
+    font-family: 'Raleway', sans-serif;
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--cor1);
+}
+#header p {
+margin-bottom: 0;
+    font-weight: 300;
+    font-size: 2em;
+    color: var(--cor1);
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar{
+    padding: 10px;
+    margin: 10px auto;
+}
+#navbar a{
+    width: 95px;
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+}
+#navbar a:hover{
+    transition: .5s;
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px 2px black;
+    color:var(--cor1)
+
+}
+/* Main */
+
+#about {
+    background-color:var(--cor2);
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+   
+    
+}
+#about img{
+    height: 100vh;
+    
+    
+}
+/* FOOTER */
+footer{
+    border-top: 1px solid var(--cor3);
+    height: 250px;
+    padding: 30px;
+}
+footer i {
+    font-size: 100px;
+    padding: 5px 10px ;
+    border-radius: 40px;
+    
+}
+#social-icons-container{
+    padding: 25px;
+}
+.bi-whatsapp{
+    color: #189D0E;
+}
+.bi-instagram{
+    width:100px;
+    height:100px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+    
+}
+#social-icons-container div{
+    text-align: center;
+}
+footer p,
+footer h3{
+    text-align: center;
+    margin: 15px;
+}
+footer i:hover{
+    text-decoration: underline;
+}
