@@ -15,7 +15,7 @@ body{
     padding: 20px;
     border-bottom: 1px solid var(--cor1);
 }
-#header p {
+#header h1 {
 margin-bottom: 0;
     font-weight: 300;
     font-size: 2em;
@@ -47,20 +47,47 @@ margin-bottom: 0;
 
 }
 /* Main */
-
-#about {
-    background-color:var(--cor2);
-    width: 80%;
+.sobre h2{
+    font-weight: 900;
+}
+.sobre p{
+    font-size: 1.2em;
+}
+#about{
+    padding: 50px 100px;
+}
+.col-xxl-6{
+    overflow: hidden;
     text-align: center;
-    justify-content: center;
-    width: 400px;
-   
+    background-color: var(--cor2);
     
 }
-#about img{
-    height: 100vh;
+.col-6 img, .col-xxl-6 img{
+    width: 100%;
     
-    
+}
+@media only screen and (max-width: 1400px){
+    .col-6 img, .col-xxl-6 img{
+        display: none;
+    }
+
+    .col-6, .col-xxl-6{
+        background-image: url(Imagens/Paula-sobre.jpg);
+        background-size: cover;
+        color: white;
+        
+        
+    }
+    .sobre h2,p{
+        background-color: #3a3a3a67;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    }
+}
+@media only screen and (max-width: 750px){
+    #about{
+        padding: 10px;
+    }
 }
 /* FOOTER */
 footer{
