@@ -90,8 +90,13 @@ margin-bottom: 0;
 
 #gallery-container{
     margin-top: 50px;
-    background-color:var(--cor2);
-    box-shadow: 0px 0px 6px -4px black;
+    background: rgba( 224, 202, 202, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
    
 }
 
@@ -145,15 +150,12 @@ footer i {
     color: #189D0E;
 }
 .bi-instagram{
-    width:100px;
-    height:100px;
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    color: white;
-    
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+ 
 }
 #social-icons-container div{
     text-align: center;
